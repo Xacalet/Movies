@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">#movies</string>
+    <string name="search_movies_title_sample">Ben-Hur (1959)</string>
+    <string name="search_movies_overview_sample">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</string>
+    <string name="error_view_title">An error occurred…</string>
+    <string name="error_view_text">An error occurred while fetching data with the following message:</string>
+    <string name="retry">Retry</string>
+    <string name="no_results_found">No results found</string>
+    <string name="search">Search</string>
+</resources>

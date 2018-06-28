@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:padding="2dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey">
+
+        <ImageView
+            android:id="@+id/movie_poster_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@id/movie_poster_image"
+            android:fontFamily="@font/raleway_semi_bold"
+            android:textSize="18sp"
+            tools:text="@string/search_movies_title_sample"/>
+
+        <TextView
+            android:id="@+id/movie_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/movie_poster_image"
+            android:layout_below="@id/movie_title"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/raleway_regular"
+            android:gravity="start|center_vertical"
+            android:textAlignment="gravity"
+            android:textSize="14sp"
+            tools:text="@string/search_movies_overview_sample"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
